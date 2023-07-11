@@ -1,0 +1,65 @@
+* {
+    margin: 0%;
+}
+
+
+/* body  */
+body {
+
+    font-family: Lato;
+
+   
+}
+
+
+/* header part design with section */
+.primary {
+    background: rgba(229, 84, 115, 0.10);
+      
+}
+ 
+ 
+.container {
+    padding: 50px 240px 0px 240px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 0%;
+    width: 708px;
+    height: 288px;
+    flex-direction: column;
+    flex-shrink: 0;
+    }
+.para {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    width: 580px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+.btn {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.container .main-picture {
+
+    
+    width: 500px;
+}
+
