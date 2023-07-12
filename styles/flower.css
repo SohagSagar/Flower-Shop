@@ -16,6 +16,7 @@ body {
 /* header part design with section */
 .primary {
     background: rgba(229, 84, 115, 0.10);
+    
       
 }
  
@@ -66,13 +67,59 @@ body {
 }
 
 
+
+/* live tree part and extra part*/
+
+.live-tree {
+
+    margin: 100px 60px;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.10);
+    border-radius: 5px;
+}
+
+.tree-title {
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 30px; 
+    margin-top: 60px;
+    padding-top: 30px;
+}
+.tree-para {
+    
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.tree-image {
+    display: flex;
+    margin: 20px 60px;
+    padding-top: 30px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
 /* main section featured part */
 .featured {
 
     padding: 50px 500px;
     border-radius: 10px;
     background-color: #FFF;;
-    margin: 130px 0px;
+    margin: 100px 0px;
    
 }
 
@@ -105,54 +152,13 @@ body {
 }
 
 
-/* live tree part and extra part*/
-
-.live-tree {
-
-    margin-top: 60px;
-    justify-content: center;
-    background: rgba(229, 84, 115, 0.10);
-}
-
-.tree-title {
-
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding-bottom: 30px; 
-    margin-top: 60px;
-}
-.tree-para {
-    
-    flex-direction: column;
-    flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    
-}
-.tree-image {
-    display: flex;
-    margin: 20px 60px;
-    padding-top: 30px;
-    border-radius: 8px;
-    justify-content: center;
-}
 
 /* main section featured image part */
 
 .featured-image {
 
     display: flex;
-    margin: 0px 100px;
+    margin: 100px 100px;
     align-items: center;
     width: 200px;
     height: 300px;
@@ -213,6 +219,7 @@ body {
 
     display: flex;
     justify-content: space-around;
+    margin: 100px 50px;
 }
 
 
@@ -222,9 +229,9 @@ body {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
-    margin: 20px 200px;
+    margin: 100px 60px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
      
      
 }
@@ -259,7 +266,7 @@ body {
     display: flex;
     align-items: center;
     padding: 50px 240px 20px 240px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .deal-title {
@@ -279,16 +286,16 @@ body {
 
 .deal-para {
 
-    
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 5px 0px;
+    padding: 15px 0px;
 }
 
-.btn-primary {
+.sign .btn-primary {
 
 
     display: inline-flex;
@@ -303,6 +310,11 @@ body {
     text-align: center;
 
 }
+.sign {
+
+    text-align: center;
+}
+ 
 
 
 
