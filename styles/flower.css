@@ -36,7 +36,8 @@ body {
     flex-shrink: 0;
     }
 .para {
-    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
     font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -84,14 +85,66 @@ body {
     line-height: normal;
     }
 
-.para-section {
+.des-section {
 
-    color: rgba(39, 39, 39, 0.60);
+    /* color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    line-height: 30px; */
+
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 30px;
+}
+
+
+/* live tree part and extra part*/
+
+.live-tree {
+
+    margin-top: 60px;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.tree-title {
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 30px; 
+    margin-top: 60px;
+}
+.tree-para {
+    
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.tree-image {
+    display: flex;
+    margin: 20px 60px;
+    padding-top: 30px;
+    border-radius: 8px;
+    justify-content: center;
 }
 
 /* main section featured image part */
@@ -145,12 +198,21 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 67PX 75PX 0PX 75PX;
+    
 }
 
 .f3 .img3 {
     width: 314px;
     height: 471px;
     flex-shrink: 0;
+}
+
+/* ancor name  */
+
+.ancor-name {
+
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -162,6 +224,7 @@ body {
     display: flex;
     margin: 20px 200px;
     text-align: center;
+    justify-content: center;
      
      
 }
@@ -174,7 +237,7 @@ body {
 
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
@@ -183,8 +246,8 @@ body {
 
 .free img {
 
-    width: 88px;
-    height: 88px;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
 }
 
@@ -196,6 +259,7 @@ body {
     display: flex;
     align-items: center;
     padding: 50px 240px 20px 240px;
+    justify-content: center;
 }
 
 .deal-title {
@@ -207,6 +271,7 @@ body {
     font-weight: 800;
     line-height: normal;
     padding-bottom: 0%;
+    padding-left: 5px;
 }
 .deal .dored {
     color: #E55473;
@@ -216,7 +281,7 @@ body {
 
     
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -235,8 +300,11 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700px;
+    text-align: center;
 
 }
+
+
 
 
 /* instagram part  */
@@ -264,7 +332,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -309,7 +377,7 @@ body {
 
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -356,7 +424,7 @@ body {
 .foot {
 
     background-color: black;
-    width: 1520px;
+    width: 1420px;
     height: 150px;
     flex-shrink: 0;
     padding: 100px 50px;
@@ -384,7 +452,7 @@ body {
 .content-para {
     text-align: center;
     color: rgba(255, 255, 255, 0.90);
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
